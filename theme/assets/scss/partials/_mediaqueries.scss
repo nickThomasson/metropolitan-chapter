@@ -1,0 +1,71 @@
+@media (max-width: 750px) {
+    #hog_pin {
+      display: none;
+    }
+    #top_navigation {
+      display: none;
+    }
+    .blog_name {
+      font-size: 2em;
+    }
+    .links {
+      clear: both;
+      width: 100%;
+    }
+    .rechts {
+      clear: both;
+      width: 100%;
+    }
+  
+    .alignleft {
+      margin: 10px auto;
+      display: block;
+      float: none;
+    }
+  
+    .alignright {
+      margin: 10px auto;
+      display: block;
+      float: none;
+    }
+  
+    .aligncenter {
+      width: 100% !important;
+      height: auto !important;
+    }
+  
+    .wp-post-image {
+      margin: 10px auto;
+      display: block;
+      float: none;
+    }
+  
+    #news_post {
+      margin: 0 auto 20px auto;
+      float: none;
+    }
+  
+    #news_post:last-child {
+      margin: 0 auto 20px auto;
+    }
+  
+    #social_media {
+      display: none;
+    }
+  
+    #outer_blog_name {
+      top: 70px;
+      padding: 10px 0 10px 0;
+    }
+  
+    .member-item {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .member-item {
+      width: 100%;
+    }
+  }
+  

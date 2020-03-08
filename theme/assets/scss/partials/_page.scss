@@ -1,0 +1,52 @@
+/* Page */
+
+#content_left {
+    float: left;
+    margin: 0 40px 40px 0;
+  }
+  
+  #content_right {
+    float: left;
+    width: 75%;
+    margin: 0 0 40px 0;
+  }
+  
+  #content_left a {
+    min-width: 168px;
+    display: block;
+    text-align: center;
+    padding: 7px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px #000;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-right: 1px solid #555;
+    border-bottom: 1px solid #555;
+    border-left: 1px solid #444;
+    border-top: 1px solid #444;
+    background: #333;
+    transition: all 0.1s ease; /* explorer 10 */
+    -webkit-transition: all 0.1s ease; /* chrome & safari */
+    -moz-transition: all 0.1s ease; /* firefox */
+    -o-transition: all 0.1s ease; /*opera */
+  }
+  
+  #content_left a:hover {
+    background: #ff6600;
+    text-shadow: 1px 1px 1px #000;
+    border-right: 1px solid #ff822e;
+    border-bottom: 1px solid #ff822e;
+    border-left: 1px solid #c95100;
+    border-top: 1px solid #c95100;
+  }
+  
+  #content_left .current_page_item a {
+    background: #ff6600;
+    font-family: "roboto_bold";
+    border-right: 1px solid #ff822e;
+    border-bottom: 1px solid #ff822e;
+    border-left: 1px solid #c95100;
+    border-top: 1px solid #c95100;
+  }

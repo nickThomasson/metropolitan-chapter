@@ -1,0 +1,26 @@
+/* IMG Styles */
+
+.alignleft {
+    float: left;
+    margin: 0 10px 10px 0;
+  }
+  
+  .alignright {
+    float: right;
+    margin: 0 0 10px 10px;
+  }
+  
+  .aligncenter {
+    margin: 10px auto;
+    display: block;
+  }
+  
+  .wp-caption-text {
+    font-size: 11px;
+    color: #ddd;
+    text-align: center;
+  }
+  
+  img {
+    box-shadow: 0px 0px 5px #000;
+  }

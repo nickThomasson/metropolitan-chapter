@@ -1,0 +1,49 @@
+/* Footer */
+
+#footer_content .current_page_item a {
+  font-family: "roboto_bold" !important;
+  color: #fff !important;
+}
+
+#footer {
+    width: 100%;
+    padding: 0 0 20px 0;
+    background: url("../images/bg_footer_shadow.png"),
+      url("../images/bg_noise_dark.gif");
+    background-repeat: repeat-x, repeat;
+  }
+  
+  #footer_container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  
+  #footer_content {
+    margin: 0 20px;
+  }
+  
+  .footer_subpage {
+    width: 15%;
+    float: left;
+    margin: 20px 20px 0 0;
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+  
+  .footer_subpage a {
+    color: #9d9d9d !important;
+    font-size: 0.9em;
+  }
+  
+  .footer_subpage a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer_subpage:first-child {
+    width: 28%;
+  }
+  
+  .footer_subpage:last-child {
+    margin-right: 0px;
+  }

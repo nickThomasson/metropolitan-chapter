@@ -1,0 +1,181 @@
+/* Body */
+
+/* Fonts */
+
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/roboto/roboto_light.ttf");
+}
+@font-face {
+  font-family: roboto_italic;
+  src: url("../fonts/roboto/roboto_light_italic.ttf");
+}
+@font-face {
+  font-family: roboto_bold;
+  src: url("../fonts/roboto/roboto_bold.ttf");
+}
+@font-face {
+  font-family: roboto_bold_italic;
+  src: url("../fonts/roboto/roboto_bold_italic.ttf");
+}
+@font-face {
+  font-family: playfair_bold;
+  src: url("../fonts/playfair/playfair_bold.ttf");
+}
+@font-face {
+  font-family: yanone;
+  src: url("../fonts/yanone/yanone.ttf");
+}
+
+body {
+  font-family: "roboto";
+  font-size: 0.8rem;
+  color: #efefef;
+  line-height: 1.4em;
+  background: url("../images/bg_noise_grey.gif");
+}
+
+em {
+  font-family: "roboto_italic";
+}
+strong {
+  font-family: "roboto_bold";
+}
+
+h1 {
+  clear: both;
+  font-family: "playfair_bold";
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #000;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "playfair_bold";
+  text-shadow: 1px 1px 1px #000;
+  margin: 25px 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 1.6em;
+  clear: both;
+}
+h3 {
+  font-size: 1.4em;
+}
+h4 {
+  font-size: 1.2em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 0.8em;
+}
+.ngg-template-caption h6 {
+  margin: 0px 0 20px 0;
+}
+
+#content_right ul li {
+  list-style: none;
+  background: url("../images/footer_arrow.png") 0 3px no-repeat;
+  padding: 0 0 0 15px;
+  margin: 0 0 6px 0;
+}
+
+#content_full ul li {
+  list-style: none;
+  background: url("../images/footer_arrow.png") 0 3px no-repeat;
+  padding: 0 0 0 15px;
+  margin: 0 0 6px 0;
+}
+
+#content_right ul {
+  margin: 10px 0 0 0;
+}
+
+#content_full ul {
+  margin: 10px 0 0 0;
+}
+
+#ai1ec-container ul li {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ai1ec-calendar-link {
+  display: none !important;
+}
+
+#content_area {
+  background: url("../images/bg_bottom.png") repeat-x top left;
+  width: 100%;
+  padding: 35px 0 0 0;
+  z-index: 3;
+  margin: -12px 0 0 0;
+  position: relative;
+}
+
+#container {
+  max-width: 980px;
+  width: 100%;
+  min-width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#content {
+  margin: 20px;
+}
+
+/* Links */
+
+a:link {
+  color: #ffae78;
+  text-decoration: none;
+}
+
+#content_right a:link {
+  transition: all 0.1s ease; /* explorer 10 */
+  -webkit-transition: all 0.1s ease; /* chrome & safari */
+  -moz-transition: all 0.1s ease; /* firefox */
+  -o-transition: all 0.1s ease; /*opera */
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffae78;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffae78;
+  text-decoration: none;
+}
+
+.archive_link {
+  float: right;
+  margin: 0 20px 10px 0px;
+}
+
+.cpm-map a {
+  color: #000;
+}
+
+.address,
+.description {
+  color: #333;
+}

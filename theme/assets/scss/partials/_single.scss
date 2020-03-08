@@ -1,0 +1,124 @@
+/* Single */
+
+#single_thumbnail {
+    float: left;
+    margin: 0 10px 10px 0;
+  }
+  
+  #content_full {
+    float: left;
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
+  
+  #single_date {
+    font-size: 0.7em;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+  
+  .single_backlink {
+    clear: both;
+    width: 280px;
+    display: block;
+    text-align: center;
+    padding: 7px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px #000;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #000;
+    border-right: 1px solid #555;
+    border-bottom: 1px solid #555;
+    border-left: 1px solid #444;
+    border-top: 1px solid #444;
+    background: #333;
+    transition: all 0.1s ease; /* explorer 10 */
+    -webkit-transition: all 0.1s ease; /* chrome & safari */
+    -moz-transition: all 0.1s ease; /* firefox */
+    -o-transition: all 0.1s ease; /*opera */
+  }
+  
+  .single_backlink:hover {
+    background: #ff6600;
+    text-shadow: 1px 1px 1px #000;
+    border-right: 1px solid #ff822e;
+    border-bottom: 1px solid #ff822e;
+    border-left: 1px solid #c95100;
+    border-top: 1px solid #c95100;
+  }
+  
+  .single_button {
+    clear: both;
+    display: block;
+    text-align: center;
+    padding: 7px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px #000;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #000;
+    border-right: 1px solid #555;
+    border-bottom: 1px solid #555;
+    border-left: 1px solid #444;
+    border-top: 1px solid #444;
+    background: #333;
+    transition: all 0.1s ease; /* explorer 10 */
+    -webkit-transition: all 0.1s ease; /* chrome & safari */
+    -moz-transition: all 0.1s ease; /* firefox */
+    -o-transition: all 0.1s ease; /*opera */
+  }
+  
+  .single_button:hover {
+    background: #ff6600;
+    text-shadow: 1px 1px 1px #000;
+    border-right: 1px solid #ff822e;
+    border-bottom: 1px solid #ff822e;
+    border-left: 1px solid #c95100;
+    border-top: 1px solid #c95100;
+  }
+  
+  .member-item {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0 0 40px 0;
+    height: 310px;
+  }
+  
+  .member-item img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+  }
+  
+  .member-item h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .member-item h5 {
+    margin: 0;
+  }
+  
+  .member-item .member-name,
+  .member-item .member-position {
+    text-align: center;
+  }
+  
+  @media (max-width: 950px) {
+    #navigation {
+      display: none;
+    }
+    #content_left {
+      display: none;
+    }
+    #toggle {
+      display: block;
+    }
+    #content_right {
+      width: 100%;
+    }
+  }

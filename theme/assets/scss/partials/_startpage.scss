@@ -1,0 +1,180 @@
+/* Startpage */
+
+.aktuelles {
+    clear: both;
+    font-family: "playfair_bold";
+    font-size: 1.6em;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  #news_post {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+  
+  #news_post img {
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 2px;
+    margin-top: -91px;
+    z-index: 1;
+    transition: all 0.1s ease; /* explorer 10 */
+    -webkit-transition: all 0.1s ease; /* chrome & safari */
+    -moz-transition: all 0.1s ease; /* firefox */
+    -o-transition: all 0.1s ease; /*opera */
+  }
+  
+  #news_post img:hover {
+    box-shadow: 0px 0px 15px #000;
+  }
+  
+  #news_title {
+    background: url("../images/bg_blog_name.png");
+    display: block;
+    width: 280px;
+    padding: 20px 10px;
+    z-index: 2;
+    position: relative;
+    top: 90px;
+  }
+  
+  .main_title {
+    font-family: "yanone";
+    font-size: 3em;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  .sub_title {
+    font-family: "yanone";
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #000;
+    color: #ff6600;
+  }
+  
+  #news_title a {
+    color: #fff;
+  }
+  
+  #news_post:last-child {
+    margin: 0 0 0 0;
+  }
+  
+  #trennlinie {
+    clear: both;
+    height: 3px;
+    width: 100%;
+    background: url("../images/trennlinie.png");
+  }
+  
+  #intro {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    position: relative;
+  }
+  
+  #intro_content {
+    margin: 20px;
+  }
+  
+  #slider_container {
+    background: url("../images/bg_noise_dark.gif");
+    width: 100%;
+  }
+  
+  #slider {
+    max-width: 980px;
+    min-width: 320px;
+    width: 100%;
+    max-height: 400px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  #stage {
+    z-index: 1;
+    position: relative;
+  }
+  
+  #outer_blog_name {
+    width: 100%;
+    background: url("../images/bg_blog_name.png");
+    position: absolute;
+    top: 57px;
+    z-index: 2;
+    padding: 35px 0 30px 0;
+  }
+  
+  .blog_name {
+    font-size: 3em;
+    font-family: "yanone";
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+  
+  .blog_name a {
+    color: #ff6600 !important;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000;
+  }
+  
+  #hog_pin {
+    width: 216px;
+    height: 91px;
+    background: url("../images/hog_pin.png") no-repeat;
+    z-index: 3;
+    position: relative;
+    float: right;
+    margin-bottom: -91px;
+    top: 59px;
+    right: 20px;
+  }
+  
+  #social_media {
+    right: 20px;
+    bottom: 0px;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .sm_link {
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    height: 53px;
+    width: 53px;
+    background: url("../images/social_media_sprite.png") no-repeat;
+    z-index: 2;
+  
+    transition: all 0.2s ease; /* explorer 10 */
+    -webkit-transition: all 0.2s ease; /* chrome & safari */
+    -moz-transition: all 0.2s ease; /* firefox */
+    -o-transition: all 0.2s ease; /*opera */
+  }
+  
+  .harleyhamburgnord {
+    background-position: 0 15px;
+    width: 69px !important;
+  }
+  .harleyhamburgnord:hover {
+    background-position: 0 0px;
+  }
+  
+  .facebook {
+    background-position: -121px 15px;
+  }
+  .facebook:hover {
+    background-position: -121px 0px;
+  }
+  
+  .youtube {
+    background-position: -67px 15px;
+  }
+  .youtube:hover {
+    background-position: -67px 0px;
+  }

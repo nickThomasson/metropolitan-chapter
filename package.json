@@ -1,0 +1,23 @@
+{
+  "name": "metropolitanchapter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp sass:watch",
+    "scss": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/dniemann/metropolitanchapter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/dniemann/metropolitanchapter#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1"
+  }
+}
